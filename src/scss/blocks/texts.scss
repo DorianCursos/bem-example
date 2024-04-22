@@ -1,1 +1,15 @@
+.text {
+  color: lime;
 
+  &--l {
+    font-size: var(--text--l);
+  }
+
+  &--m {
+    font-size: var(--text--m);
+  }
+
+  &--tight {
+    width: var(--text--tight);
+  }
+}

@@ -1,1 +1,19 @@
+.title {
+  font-family: sans-serif;
 
+  &--xl {
+    font-size: var(--title--xl);
+  }
+
+  &--l {
+    font-size: var(--title--l);
+  }
+
+  &--m {
+    font-size: var(--title--m);
+  }
+
+  &--s {
+    font-size: var(--title--s);
+  }
+}
